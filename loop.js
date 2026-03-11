@@ -29,14 +29,24 @@
 //     document.write("you are not eligible to vote");
 // }
 
-let grade = 'A';
-document.write("entering switch block");
-switch(grade){
-    case'A': document.write("excellent</br>");
-    break;
-    case'B': document.write("good</br>");
-    break;
-    case'C':document.write("average</br>");
-    break;
-    default: document.write("invalid grade</br>");
+// let grade = 'A';
+// document.write("entering switch block");
+// switch(grade){
+//     case'A': document.write("excellent</br>");
+//     break;
+//     case'B': document.write("good</br>");
+//     break;
+//     case'C':document.write("average</br>");
+//     break;
+//     default: document.write("invalid grade</br>");
+// }
+
+// Function
+
+// function myfunction(){
+//     alert("hello world");
+// }
+
+function sayhello(name,age){
+    document.write("hello " + name + " your age is " + age);
 }
