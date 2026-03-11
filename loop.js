@@ -5,11 +5,18 @@
 // }
 // document.write("loop ended <br>")
 
-const person={
-    name:"ajay",
-    age:25,
-    city:"delhi"
-};
-for(let x in person){
-    document.write(x + " : " + person[x] + "<br>");
+// const person={
+//     name:"ajay",
+//     age:25,
+//     city:"delhi"
+// };
+// for(let x in person){
+//     document.write(x + " : " + person[x] + "<br>");
+// }
+
+let count;
+document.write("starting loop <br>");
+while(count<10){
+    document.write( "current count" + count + "<br>");
+    count++;
 }
