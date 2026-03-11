@@ -14,9 +14,17 @@
 //     document.write(x + " : " + person[x] + "<br>");
 // }
 
-let count;
-document.write("starting loop <br>");
-while(count<10){
-    document.write( "current count" + count + "<br>");
-    count++;
+// let count;
+// document.write("starting loop <br>");
+// while(count<10){
+//     document.write( "current count" + count + "<br>");
+//     count++;
+// }
+
+let age = 18;
+if(age >= 18){
+document.write("you are eligible to vote");
+}
+else{
+    document.write("you are not eligible to vote");
 }
