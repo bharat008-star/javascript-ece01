@@ -47,6 +47,12 @@
 //     alert("hello world");
 // }
 
-function sayhello(name,age){
-    document.write("hello " + name + " your age is " + age);
-}
+// function sayhello(name,age){
+//     document.write("hello " + name + " your age is " + age);
+// }
+
+// var add3=(a,b)=>{
+//     console.log(a+b);
+// };
+// add3(5,10);
+
