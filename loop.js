@@ -77,7 +77,7 @@
 
 // var myinfo={new array };
 
-var myinfo = new Array();
-myinfo1=["ajay",25,"delhi"];
-console.log(myinfo,myinfo1);
+// var myinfo = new Array();
+// myinfo1=["ajay",25,"delhi"];
+// console.log(myinfo,myinfo1);
  
