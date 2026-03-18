@@ -28,13 +28,46 @@
 
 // document.createElement
 
-const heading=document.createElement("h2");
-const bodytag=document.getElementsByTagName("body")[0];
-bodytag[0].append(heading);
+// const heading=document.createElement("h2");
+// const bodytag=document.getElementsByTagName("body")[0];
+// bodytag[0].append(heading);
 
 // dom close method
 
-document.open();
-document.write("<h1>my self</h1>");
-document.close();
+// document.open();
+// document.write("<h1>my self</h1>");
+// document.close();
 
+function onClick(){
+    console.log("button is clicked");
+}
+
+function onMouseOut(){
+    console.log("mouse is out");
+}
+
+
+function onMouseDown(){
+    console.log("mouse is down");
+}
+
+
+
+function onMouseUp(){
+    console.log("mouse is up");
+}
+
+
+
+function onMouseMove(){
+    console.log("mouse is moving");
+}
+
+
+function onDoubleClick(){
+    console.log("button is double clicked");
+}
+
+function onMouseOver(){
+    console.log("mouse is over");
+}   
