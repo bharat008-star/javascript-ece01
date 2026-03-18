@@ -38,36 +38,48 @@
 // document.write("<h1>my self</h1>");
 // document.close();
 
-function onClick(){
-    console.log("button is clicked");
+// function onClick(){
+//     console.log("button is clicked");
+// }
+
+// function onMouseOut(){
+//     console.log("mouse is out");
+// }
+
+
+// function onMouseDown(){
+//     console.log("mouse is down");
+// }
+
+
+
+// function onMouseUp(){
+//     console.log("mouse is up");
+// }
+
+
+
+// function onMouseMove(){
+//     console.log("mouse is moving");
+// }
+
+
+// function onDoubleClick(){
+//     console.log("button is double clicked");
+// }
+
+// function onMouseOver(){
+//     console.log("mouse is over");
+// }   
+// function myFunction(){
+//     alert("windows is loaded");
+// }
+function onKeyDown(){
+    console.log("key is down");
 }
-
-function onMouseOut(){
-    console.log("mouse is out");
+function onKeyUp(){
+    console.log("key is up");
 }
-
-
-function onMouseDown(){
-    console.log("mouse is down");
+function onKeyPress(){
+    console.log("key is pressed");
 }
-
-
-
-function onMouseUp(){
-    console.log("mouse is up");
-}
-
-
-
-function onMouseMove(){
-    console.log("mouse is moving");
-}
-
-
-function onDoubleClick(){
-    console.log("button is double clicked");
-}
-
-function onMouseOver(){
-    console.log("mouse is over");
-}   
