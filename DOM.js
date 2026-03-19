@@ -74,12 +74,46 @@
 // function myFunction(){
 //     alert("windows is loaded");
 // }
-function onKeyDown(){
-    console.log("key is down");
-}
-function onKeyUp(){
-    console.log("key is up");
-}
-function onKeyPress(){
-    console.log("key is pressed");
-}
+// function onKeyDown(){
+//     console.log("key is down");
+// }
+// function onKeyUp(){
+//     console.log("key is up");
+// }
+// function onKeyPress(){
+//     console.log("key is pressed");
+// }
+
+// let promise=new promise((resolve,reject)=>(
+// let success=true;
+// if(success){
+//     resolve("promise is resolved");}
+//     else{reject("error occured");}
+// ));
+// promise.then(result=>console.log(result)).catch(error=>console.log(error));
+
+// async function getdata() {
+//     let response= await fetch("");
+//     let data=await response.json();
+//     console.log(data);    
+// }
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then(response=>response.json())
+// .then(data=>console.log(data))
+// .catch(error=>console.log(error));
+ 
+// try{
+//     var x=y+10;
+// }
+// catch(error){
+//     console.log("error is occured");
+// }
+
+localStorage.setItem("name","jeet");
+var name=localstorage.getItem("name");
+console.log(name1)
+localStorage.removeItem("name");
+var user={name:"jeet",age:50};
+localStorage.setItem("user",JSON.stringify(user));
+var data =JSON.parse(localStorage.getItem("user"));
+console.log(data.name,data.age);
